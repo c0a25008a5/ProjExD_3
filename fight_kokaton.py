@@ -105,7 +105,6 @@ class Beam:
         self.rct.centery = bird.rct.centery + bird.rct.height * self.vy // 5  # ビームの中心縦座標 = こうかとんの中心縦座標
         self.rct.centerx = bird.rct.centerx + bird.rct.width * self.vx // 5
 
-
     def update(self, screen: pg.Surface):
         """
         ビームを速度ベクトルself.vx, self.vyに基づき移動させる
